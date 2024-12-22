@@ -79,6 +79,10 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.kotlinx.serialization.json)
 
+    // Arrow
+    implementation(libs.arrow.core)
+    implementation(libs.arrow.fx.coroutines)
+
     // Hilt
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
