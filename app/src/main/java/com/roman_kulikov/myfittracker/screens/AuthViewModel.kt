@@ -1,7 +1,7 @@
 package com.roman_kulikov.myfittracker.screens
 
 import androidx.lifecycle.viewModelScope
-import com.roman_kulikov.domain.AuthUseCase
+import com.roman_kulikov.domain.auth_use_cases.AuthUseCase
 import com.roman_kulikov.myfittracker.screens.base.BaseViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -24,7 +24,7 @@ class AuthViewModel @Inject constructor(
         viewModelScope.launch {
             val either = authUseCase(state.value.email, state.value.password)
             if (either.isLeft()) {
-                _state.update { it.copy(message = either.leftOrNull() ?: "") }
+                //_state.update { it.copy(message = either.leftOrNull() ?: "") }
             }
         }
 
