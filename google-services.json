@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "884634284494",
+    "project_id": "myfittracker-ed896",
+    "storage_bucket": "myfittracker-ed896.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884634284494:android:2c5ed983ba678396d73b9f",
+        "android_client_info": {
+          "package_name": "com.roman_kulikov.myfittracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGkWvRD2jrFhVg23KQd20x8nty6gon7Nk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
